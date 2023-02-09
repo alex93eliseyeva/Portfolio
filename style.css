@@ -1,0 +1,96 @@
+body {
+  background-color: #000000;
+  font-family: 'Roboto';
+}
+
+.header__container {
+  width: 1180px;
+  margin: 60px 125px 0 125px;
+  display: inline-block;
+}
+
+.header__logo {
+  width: 108px;
+  height: 55px;
+  margin: 0 112px 0 0;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: left;
+}
+
+.blog {
+  color: #FFB822;
+}
+
+.header__navigation {
+  width: 552px;
+}
+
+.navigation__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation__item {
+  display: inline-block;
+}
+
+.navigation__item:not(:last-child) {
+  margin-right: 32px;
+  margin-left: 0;
+}
+
+.header__form {
+  background-image: url(image/border_search.svg);
+  width: 280px;
+  height: 55px;
+}
+
+input {
+  width: 288px;
+  height: 55px;
+  background: transparent;
+  border: none;
+  font-size: 22px;
+}
+
+input[placeholder] {
+  color: #CCCCCC;
+  text-transform: uppercase;
+  padding-left:17px
+}
+
+.main__section {
+  background-image: url(image/kate_leo.jpeg);
+  width: 1180px;
+  height: 780px;
+  margin: 80px 125px;
+}
+
+.main__container {
+  width: 839px;
+  padding: 324px 149px 318px 192px;
+}
+
+.main__heading {
+  color: #FFB822;
+  font-size: 100px;
+  text-align: center;
+  margin: 0;
+  line-height: 73px;
+}
+
+.main__description {
+  color: #FFFFFF;
+  font-size: 36px;
+  text-align: left;
+  margin: 0;
+  margin-top: 36px;
+  line-height: 29px;
+}
